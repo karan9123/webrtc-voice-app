@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: webrtc-voice-app
+    env: docker
+    buildCommand: docker build -t webrtc-voice-app .
+    startCommand: docker run -p \$PORT:3000 webrtc-voice-app
+    envVars:
+      - key: NODE_ENV
+        value: production
+EOL
