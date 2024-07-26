@@ -86,7 +86,6 @@ This application is configured for deployment on Render using the `render.yaml` 
 
 - `server.js`: Main server file handling Express.js setup and Socket.IO logic
 - `public/index.html`: Front-end HTML file
-- `public/js/main.js`: Front-end JavaScript handling WebRTC and UI logic
 - `docker-compose.yml`: Docker Compose configuration for local development
 - `Dockerfile`: Docker configuration for containerization
 - `package.json`: Node.js package configuration
